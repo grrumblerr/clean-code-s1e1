@@ -23,7 +23,8 @@
 
 @media (max-width:768px) {
 
-  .header { text-align: center;
+  .header {
+    text-align: center;
   }
 
 }
@@ -49,11 +50,13 @@
   padding: 0px;
 }
 
-.list-item, title {
+.list-item,
+.title {
   list-style: none;
 }
 
-input,.btn{
+input,
+.btn{
   outline: none;
 }
 
@@ -73,7 +76,7 @@ input,.btn{
 
 /* Heading */
 
-title,
+.title,
 .add-text {
   color: #333;
   font-weight: 700;
@@ -127,7 +130,7 @@ title,
   vertical-align: middle;
 }
 
-.list-item > input[type="checkbox"] {
+.list-item > .input-checkbox {
   margin: 0 10px;
 }
 
