@@ -9,24 +9,26 @@
           charset="utf-8">
   </head>
   <body class="page">
+
     <header class="header">
-      <img class="header-img" src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
-      <a class="more-inf" 
+      <img class="header__img" src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
+      <a class="header__more-inf" 
         href="https://goal-life.com/page/method/matrix-eisenhower">
         Want more details?
       </a>
     </header>
+
     <main class="main">
 
-      <section class="add-item" id="add-item">
-        <label for="new-task" class="add-text label">Add Item</label>
+      <section class="add-item section" id="add-item">
+        <label for="new-task" class="add-item__add-text label">Add Item</label>
         <div class="task-row-wrapper">
           <input id="new-task" class="input-text task" type="text">
           <button class="btn">Add</button>
         </div>
       </section>
 
-      <section class="todo">
+      <section class="todo section">
         <h3 class="title">Todo</h3>
         <ul class="list" id="incompleted-tasks">
           <li class="list-item"><input type="checkbox" class="input-checkbox">
@@ -47,7 +49,7 @@
         </ul>
       </section>
 
-      <section class="completed">
+      <section class="completed section">
         <h3 class="title">Completed</h3>
         <ul class="list" id="completed-tasks">
           <li class="list-item">
